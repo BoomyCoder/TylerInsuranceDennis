@@ -223,9 +223,10 @@
 
   <div class="input-row">
     <div class="field">
-      <label for="zip">ZIP code</label>
-      <input id="zip" name="ZIP Code" inputmode="numeric" pattern="\\d{5}" maxlength="5" required />
-    </div>
+      <div class="field">
+    <label for="address">Home Address</label>
+    <input id="address" name="Home Address" autocomplete="street-address" required />
+  </div>
     <div class="field">
       <label for="coverage">Coverage amount</label>
       <select id="coverage" name="Coverage Amount" required>
